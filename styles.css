@@ -24,8 +24,10 @@ section {
 
 
 .nav-link {
-    color: #CB6D43;
+    color: var(--alto-contraste-texto);
+    background: var(--alto-contraste-fundo);
     font-weight: 600;
+    border-color: var(--alto-contraste-texto);
 }
 
 .inicio-fundo {
